@@ -21,16 +21,16 @@ const Home = () => {
             }}
         >
             {/* Content */}
-            <div className="relative flex items-center justify-center h-screen">
+            <div className="relative flex  justify-center h-screen">
                 <Banner />
             </div>
             <div className="py-16 flex items-center justify-center h-screen">
                 <AboutMe />
             </div>
-            <div id="education" className="py-16 flex items-center justify-center h-screen">
+            <div id="education" className="py-16 mt-96 flex items-center justify-center h-screen md:mt-80">
                 <EdEx />
             </div>
-            <div id="training" className="py-16 flex items-center justify-center h-screen mt-24">
+            <div id="training" className="py-16 mt-52 flex items-center justify-center h-screen md:mt-24">
                 <Training />
             </div>
             <div className="py-16 flex items-center justify-center mt-10">

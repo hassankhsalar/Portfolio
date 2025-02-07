@@ -3,14 +3,14 @@ import bg2 from "../assets/bg2.jpg";
 
 const EdEx = () => {
   return (
-    <div className="w-10/12 ">
+    <div className="w-11/12 ">
       <div>
         <h1 className="text-5xl text-slate-400">Education & Experience</h1>
       </div>
       <div>
         <div className="hero bg-black opacity-70 min-h-screen rounded-xl mt-4">
           <div className="flex flex-col lg:flex-row-reverse">
-            <img src={bg2} className="max-w-sm object-cover rounded-lg shadow-2xl" />
+            <img src={bg2} className="max-w-sm hidden md:block lg:block object-cover rounded-lg shadow-2xl" />
             <div>
               <div className="px-4">
                 <h1 className="text-5xl font-bold text-slate-500 mt-10">Exprience</h1>

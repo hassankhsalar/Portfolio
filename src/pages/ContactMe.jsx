@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <section className="w-10/12 flex flex-col md:flex-row h-96  ">
+        <section className="w-11/12 flex flex-col gap-3 md:flex-row h-96  ">
             {/* Left Div */}
             <div className="w-full md:w-1/2 p-8 flex flex-col items-center justify-center bg-fuchsia-900 shadow-md rounded-2xl">
                 <h2 className="text-2xl font-bold mb-4 text-gray-300">Contact Me</h2>
@@ -22,8 +22,8 @@ const ContactMe = () => {
             {/* Right Div */}
             <div className="w-full md:w-1/2 p-8 flex flex-col items-center justify-center bg-slate-700 text-white rounded-2xl">
                 <h2 className="text-2xl font-bold mb-4 text-gray-700">Get in Touch</h2>
-                <p className="mb-2 "> Your Permanent Location: <span className="font-medium">Bogura Bangladesh</span></p>
-                <p className="mb-2 "> Your Present Location: <span className="font-medium">Dhaka Bangladesh</span></p>
+                <p className="mb-2 "> Permanent Location: <span className="font-medium">Bogura Bangladesh</span></p>
+                <p className="mb-2 "> Present Location: <span className="font-medium">Dhaka Bangladesh</span></p>
                 <p className="mb-2 ">✉️ Email: <span className="font-medium">khsalarhassan@gmail.com</span></p>
                 <p className="mb-2 ">📞 Phone: <span className="font-medium">+8801726798847</span></p>
                 <button

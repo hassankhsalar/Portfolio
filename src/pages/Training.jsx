@@ -10,7 +10,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { AnimatedTestimonialsDemo } from "../components/AccertainityComponents/AnimatedTestimonials";
 
 const Training = () => {
   return (
@@ -20,38 +20,9 @@ const Training = () => {
       </div>
       <div>
         <div className="hero bg-black opacity-70 min-h-screen rounded-xl mt-4">
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="w-full md:w-1/2">
-              <Swiper
-                effect={"coverflow"}
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={"auto"}
-                coverflowEffect={{
-                  rotate: 50,
-                  stretch: 0,
-                  depth: 100,
-                  modifier: 1,
-                  slideShadows: true,
-                }}
-                pagination={true}
-                modules={[EffectCoverflow, Pagination]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-                  <img src={bc1} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src={vn1} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src={lb1} />
-                </SwiperSlide>
-              </Swiper>
-              <p className="text-center text-slate-300"> Swipe Here</p>
-            </div>
-
-            <div className="w-full md:w-1/2">
+          <div className="flex flex-col xl:flex-row justify-center items-center">
+            
+            <div className="w-full xl:w-5/12">
               <div className="px-4">
                 <h1 className="text-5xl font-bold text-slate-500 mt-10">
                   Training
@@ -60,26 +31,33 @@ const Training = () => {
                   Programming Hero
                 </h1>
                 <p className="py-6 text-slate-400 text-xl ">
-                  This web Development training allowed me to sharpen up my
-                  basics and learn new things.I have worked with React Nodejs
-                  ExpressJs MongoDB Firebase authentication JWT and many more.
+                  This web Development course allowed me to sharpen up my
+                  basics and learn new things.I have worked with Next.js React Nodejs
+                  ExpressJs MongoDB Firebase authentication JWT NextAuth Stripe SSLcommerz and many more.
                 </p>
               </div>
               <div className="px-4 text-slate-500">
                 <h1 className="text-5xl font-bold  mt-5">Projects</h1>
                 <h3 className="text-xl mt-6">
-                  Boi-chai library Portal --React firebase nodejs express jwt--
+                  Monster Factory fitness Portal [ React Firebase Nodejs Express JWT Stripe SSLcommerz ]
                 </h3>
                 <h3 className="text-xl mt-2">
-                  Visa Navigator --React firebase nodejs express--
+                  Boi-chai library Portal [ React Firebase Nodejs Express JWT ]
                 </h3>
                 <h3 className="text-xl mt-2">
-                  Lingo-Bingo--React firebase js--
+                  Visa Navigator          [ React Firebase Nodejs Expressjs MongoDB ]
                 </h3>
-                <h3 className="text-2xl mt-10">
-                  check silder for Project demo
+                <h3 className="text-xl mt-2">
+                  Lingo-Bingo [ React firebase js ]
+                </h3>
+                <h3 className="text-2xl mt-2 text-fuchsia-600">
+                  And Many more
                 </h3>
               </div>
+            </div>
+            {/* slider */}
+            <div>
+              <AnimatedTestimonialsDemo></AnimatedTestimonialsDemo>
             </div>
           </div>
         </div>

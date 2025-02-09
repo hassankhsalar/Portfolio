@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from '../components/Banner';
 import AboutMe from './AboutMe';
 import EdEx from './EdEx';
@@ -30,10 +29,10 @@ const Home = () => {
             <div id="education" className="py-16 mt-96 flex items-center justify-center h-screen md:mt-80">
                 <EdEx />
             </div>
-            <div id="training" className="py-16 mt-52 flex items-center justify-center h-screen md:mt-24">
+            <div id="training" className="py-16 mt-[500px] flex items-center justify-center h-screen md:mt-96 lg:mt-[410px]  xl:mt-44">
                 <Training />
             </div>
-            <div className="py-16 flex items-center justify-center mt-10">
+            <div className="py-16 flex items-center justify-center mt-[410px] md:mt-60 lg:mt-80 xl:mt-20">
                 <ContactMe />
             </div>
         </section>

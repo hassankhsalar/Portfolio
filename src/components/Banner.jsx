@@ -23,14 +23,14 @@ const Banner = () => {
           transition={{ duration: 4, delay: 1, ease: easeOut }}
           className="text-lg md:text-2xl lg:text-3xl text-center md:text-right mt-4"
         >
-          FULL STACK DEVELOPER
+          MERN STACK DEVELOPER
         </motion.h3>
       </div>
 
       {/* React Logo */}
       <motion.div
         initial={{ scale: 1 }}
-        animate={{ scale: 1.1, y: 40, md: 80, x: 0, md: -75 }}
+        animate={{ scale: 1.1, y: 40, md: 80, x: 0 }}
         transition={{ duration: 3, delay: 1, ease: easeOut }}
         className="flex justify-center mt-10 md:justify-end md:mt-6 "
       >

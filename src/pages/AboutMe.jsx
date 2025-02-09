@@ -9,14 +9,14 @@ import node from "../assets/node.png";
 
 const AboutMe = () => {
   return (
-    <div className="w-11/12 md:mt-96">
+    <div className="w-11/12 md:mt-80">
       <div>
-        <h1 className="text-5xl text-slate-200">About Me</h1>
+        <h1 className="text-5xl text-slate-400">About Me</h1>
       </div>
       <div>
         <div className="hero bg-black opacity-70 min-h-screen rounded-xl mt-4">
           <div className="flex flex-col mt-2 items-center lg:flex-row-reverse ">
-            <img src={self} className="max-w-sm px-4 py-4 rounded-lg shadow-2xl md:px-0 md:py-0" />
+            <img src={self} className="w-full mx-auto md:max-w-sm px-4 py-4 rounded-lg shadow-2xl md:px-0 md:py-0" />
             <div className="flex flex-col justify-center items-center">
               <p className="py-6 text-slate-400 text-xl px-4">
                 I am a dedicated Full Stack Developer with expertise in building

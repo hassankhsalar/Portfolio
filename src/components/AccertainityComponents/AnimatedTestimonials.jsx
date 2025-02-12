@@ -1,7 +1,7 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import peddy from '/peddy.png';
 import visa from '/VNH.png';
-import boi from '/boi.png';
+import boi from '/bc.png';
 import bistro from '/bistro.png';
 import monster from '/monster.png';
 
@@ -13,13 +13,7 @@ export function AnimatedTestimonialsDemo() {
       name: "Monster Factory",
       designation: "Fitness Hub and Marketplace",
       src: monster,
-    },
-    {
-      quote:
-        "Bistro-Boss makes things easy for both customers and service team to keep track of orders and menus",
-      name: "Bistro Boss",
-      designation: "Restaurant Order Management portal",
-      src: bistro,
+      link: '/monsterfactory'
     },
     {
       quote:
@@ -27,6 +21,7 @@ export function AnimatedTestimonialsDemo() {
       name: "Visa Navigator",
       designation: "Visa Application portal",
       src: visa,
+      link: '/visanavigator'
     },
     {
       quote:
@@ -34,6 +29,7 @@ export function AnimatedTestimonialsDemo() {
       name: "Boi chai",
       designation: "Virtual Library",
       src: boi,
+      link: '/boichai'
     },
     {
       quote:
@@ -41,6 +37,15 @@ export function AnimatedTestimonialsDemo() {
       name: "peddy pets",
       designation: "Pet Adoption site",
       src: peddy,
+      link: '/monsterfactory'
+    },
+    {
+      quote:
+        "Bistro-Boss makes things easy for both customers and service team to keep track of orders and menus",
+      name: "Bistro Boss",
+      designation: "Restaurant Order Management portal",
+      src: bistro,
+      link: '/monsterfactory'
     },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;

@@ -3,6 +3,7 @@ import { cn } from "../../utils/cn";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
   const [active, setActive] = useState(0);
@@ -74,6 +75,9 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                     draggable={false}
                     className="h-full w-full rounded-3xl object-cover object-center"
                   />
+                  <Link to={testimonial.link}>
+                    <button className="btn ml-60 mt-2">Details</button>
+                  </Link>
                 </motion.div>
               ))}
             </AnimatePresence>
